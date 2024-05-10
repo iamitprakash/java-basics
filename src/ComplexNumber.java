@@ -7,8 +7,8 @@ public class ComplexNumber {
         return imaginary;
     }
 
-    private double real;
-    private double imaginary;
+    private final double real;
+    private final double imaginary;
 
     public ComplexNumber() {
         this(0, 0);
